@@ -8,7 +8,7 @@ import keyboard
 from time import sleep
 # loop to run the code until the key 1 is pressed
 # loop para executar o código até que a tecla 1 seja pressionada
-while keyboard.is_pressed('1') == False
+while keyboard.is_pressed('1') == False:
     # Check button with corresponding color on the screen
     # Verifique o botão com a cor correspondente na tela
     if pyautogui.pixelMatchesColor(X, Y, (R, G, B)) #coordinates and color
